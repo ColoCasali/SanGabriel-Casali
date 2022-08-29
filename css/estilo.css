@@ -75,7 +75,9 @@ iframe{width: 200px}
 	"mainServ mainServ"
 	"footServ footServ";
 }
-.headServ{grid-area:headServ; background-color: skyblue;
+.headServ{grid-area:headServ;
+background-image: linear-gradient(blue,skyblue);
+background-color: skyblue;
 display: flex;
 flex-direction: column;
 flex-wrap: nowrap;
