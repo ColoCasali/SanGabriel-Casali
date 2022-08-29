@@ -98,4 +98,6 @@ flex-wrap: wrap;}
 .Almacenamiento{grid-area: Almacenamiento;}
 .Distribución{grid-area: Distribución;}
 .imgCarga{width: 100%}
+.servicios{display: flex;
+justify-content: space-around;}
 
