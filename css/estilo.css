@@ -71,9 +71,9 @@ iframe{width: 200px}
 	grid-template-columns: 1fr 1fr;
 	grid-template-rows: auto auto auto;
 	grid-template-areas: 
-	"headServ"
-	"mainServ"
-	"footServ";
+	"headServ headServ"
+	"mainServ mainServ"
+	"footServ footServ";
 }
 .headServ{grid-area:headServ; background-color: skyblue;
 display: flex;
@@ -97,5 +97,5 @@ flex-direction: column;
 flex-wrap: wrap;}
 .Almacenamiento{grid-area: Almacenamiento;}
 .Distribución{grid-area: Distribución;}
-
+.imgCarga{width: 100%}
 
