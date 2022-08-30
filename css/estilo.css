@@ -83,7 +83,11 @@ flex-direction: column;
 flex-wrap: nowrap;
 justify-content: center;}
 .mainServ{grid-area:mainServ;}
-.footServ{grid-area: footServ;}	
+.footServ{grid-area: footServ; 
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+background-image: linear-gradient(skyblue,blue);}	
 .mainServ{background-color: skyblue;
 	display: grid;
 	grid-template-columns: 1fr;
@@ -100,6 +104,15 @@ flex-wrap: wrap;}
 .Almacenamiento{grid-area: Almacenamiento;}
 .Distribución{grid-area: Distribución;}
 .imgCarga{width: 100%}
-.servicios{display: flex;
-justify-content: space-around;}
+.servicios{
+	transition:all 2s;
+}
+.servicios:hover{
+	padding: auto;
+	width: 200px;
+	height: 100px;
+	cursor: pointer;
+	background-color: blue;
+}
+input:focus{font-size: 30px; transition: 2s}
 
